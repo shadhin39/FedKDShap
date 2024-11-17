@@ -8,15 +8,15 @@ This repository includes the implementation of the Federated Learning (FL) metho
 
 The types of dataset segmentation in this project are IID and Non-IID.
 ### IID (identifically and independently distributed):
-It merely uniformly split the dataset. For centralized learning algorithms the II dataset is being used.
+It merely uniformly splits the dataset. The II dataset is used for centralized learning algorithms.
 ### Non-IID (non-identifically and independently distributed):
-The dataset is segmented with its natural property. A popular way for realizing non-iid dataset segmentation is utilizing Dirichlet distribution, which is adopted in this project. It uses Dirichlet distribution on the label ratios to ensure uneven label distributions among clients for Non-IID splits.
+The dataset is segmented with its natural property. A popular way to realize non-iid dataset segmentation is by utilizing Dirichlet distribution, which was adopted in this project. It uses Dirichlet distribution on the label ratios to ensure uneven label distributions among clients for non-IID splits.
 
 
 
 ### Dependencies
 
-- python 3.12.4 
+- Python 3.12.4 
 - TensorFlow 2.17.0
 - Numpy 1.26.4
 - Keras 3.5.0
@@ -45,11 +45,11 @@ The following arguments to the important parameters of the experiment.
 | --------------------------- | ------------------------------------------------------------ |
 | `num_classes`               | Number of classes                                            |
 | `num_clients`               | Number of all clients.                                       |
-| `fraction_fit`	          | Number of fraction fit.                                      |
-| `fraction_fit`	          | Number of fraction evaluate.                          		 |
-| `min_fit_client`            | Number of minimum client to be fit.                          |
-| `min_fit_evaluate`          | Number of minimum client to be evaluated.                    |
-| `min_available_client`      | Number of minimum available client to be present in server.  |
+| `fraction_fit`	            | Number of fraction fit.                                      |
+| `fraction_fit`	            | Number of fractions evaluate.                            		 |
+| `min_fit_client`            | Number of minimum clients to be fit.                         |
+| `min_fit_evaluate`          | Number of minimum clients to be evaluated.                   |
+| `min_available_client`      | Number of minimum available clients to be present in server. |
 | `federated_rounds`          | Number of federated rounds of the experiment.                |
 | `num_partitions`            | Number of partitions used for non-iid data settings.         |
 | `min_partitions_size`       | Learning rate of server updating.                            |
