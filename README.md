@@ -16,16 +16,16 @@ The dataset is segmented with its natural property. A popular way to realize non
 
 ### Dependencies
 
-- Python 3.12.4 
-- TensorFlow 2.17.0
-- Numpy 1.26.4
-- Keras 3.5.0
-- flwr 1.11.1
-- Shap 0.46.0
-- matplotlib 3.8.4
-- pandas 2.2.2
-- CUDA 11.2
-- cuDNN 8.0.4
+- Python >= 3.12.4 
+- TensorFlow >= 2.17.0
+- Numpy >= 1.26.4
+- Keras >= 3.5.0
+- flwr >= 1.11.1
+- Shap >= 0.46.0
+- matplotlib >= 3.8.4
+- pandas >= 2.2.2
+- CUDA >= 11.2
+- cuDNN >= 8.0.4
 
 
 
