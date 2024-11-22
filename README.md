@@ -1,4 +1,4 @@
-# FedKDShap: Enhancing Federated Learning Via Shapley Values Driven Knowledge Distillation on Non-IID Data. 
+# FedKDShap
 
 ## Contents
 
