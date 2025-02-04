@@ -36,7 +36,6 @@ The dataset is segmented with its natural property. A popular way to realize non
 - MNIST
 
 
-
 ### Parameters
 
 The following arguments to the important parameters of the experiment.
